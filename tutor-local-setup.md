@@ -40,10 +40,8 @@ cd "$(tutor config printroot)/env/build/openedx/themes"
 Clone the custom Sherab theme:
 
 ```bash
-git clone https://github.com/Esukhia/sherab-theme.git sherab
+git clone https://github.com/Esukhia/Sherab-theme.git 
 ```
-
-> Ensure the folder is named `sherab`, matching theme settings in LMS/CMS.
 
 ---
 
