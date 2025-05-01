@@ -169,8 +169,25 @@ tutor plugins enable configuration_plugin
 Enable other plugins as needed.
 
 ---
+## ✅ 11. Check if the plugin is installed in the container
 
-## 🏗 11. Rebuild Docker Image
+```bash
+tutor dev run lms bash
+```
+
+Check if the plugin is installed in the container
+
+```bash
+pip list | grep sherab
+```
+If it’s not installed, you can install it by running:
+
+```bash
+pip install -e /mnt/sherab-custom-plugin
+```
+exit the container after that and rebuild the image
+---
+## 🏗 12. Rebuild Docker Image
 
 ```bash
 tutor images build openedx --no-cache
