@@ -51,7 +51,7 @@ tutor images build mfe --no-cache
 ## 7. Restart Tutor (If Required)
 
 ```bash
-tutor local restart
+tutor dev restart
 ```
 
 If you're using Kubernetes or other deployment methods, use the corresponding restart method.
