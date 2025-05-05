@@ -38,10 +38,20 @@ git clone -b feature/my-custom-feature https://github.com/your-username/frontend
 ```bash
 tutor mounts add ./frontend-app-learning
 ```
+
 check if its mounted by running:
 ```bash
 tutor mounts list
 ```
+Install the dependencies in the MFE:
+
+```bash
+cd frontend-app-learning
+```
+```bash
+npm install
+```
+
 ## 6. Rebuild the MFE Image (Without Cache)
 
 ```bash
@@ -54,4 +64,3 @@ tutor images build mfe --no-cache
 tutor dev restart
 ```
 
-If you're using Kubernetes or other deployment methods, use the corresponding restart method.
