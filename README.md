@@ -39,3 +39,36 @@ A shared header component used in various Sherab frontend applications, providin
 A Django plugin extending Open edx functionality with Sherab-specific backend logic, models, and APIS.
 
 ---
+
+# 🤝 How to Contribute
+
+We welcome contributions from the community! Here's how you can get involved:
+
+### 🐞 Bug Reports
+
+If you encounter a bug or unexpected behavior:
+
+- Open an issue in the respective repository
+- Describe the problem clearly and include steps to reproduce it if possible
+- This helps us track and resolve issues efficiently
+
+### 🛠 Code Contributions
+
+Want to contribute code? Follow these steps:
+
+1. **Create a feature branch** off the `sherab-dev` branch.
+2. Make your changes and commit them.
+3. **Open a Pull Request (PR)** to the `sherab-dev` branch.
+4. One of the Sherab developers will review and test your contribution.
+5. After approval, the changes will be merged into production.
+
+> 🔒 **Note:** All main branches are protected and require code review before merging.
+
+### 💬 Join the Conversation
+
+For discussions, questions, or collaboration:
+
+- **[Join our Discord community](https://discord.gg/anVFn74wuk)**
+- **[Visit the Sherab Community Forum](https://community.sherab.org/)**
+
+We're excited to work together and improve the Sherab platform with your help!
