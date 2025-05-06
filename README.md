@@ -14,7 +14,7 @@ Use this as the central reference for all technical setup and operational proced
 
 # Sherab Project Repositories
 
-This document provides an organized overview of the core repositories maintained under the Sherab project by [Esukhia](https://github.com/Esukhia). These repositories together constitute the customized OpenEdX platform and associated components for the Sherab learning platform.
+These are an organised overview of the core repositories maintained under the Sherab project by [Esukhia](https://github.com/Esukhia). These repositories together constitute the customised OpenEdX platform and associated components for the Sherab learning platform. There will be more repositories added here based on the need.
 
 ---
 
