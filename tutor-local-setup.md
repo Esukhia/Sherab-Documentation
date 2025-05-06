@@ -29,7 +29,7 @@ This will:
 
 ---
 
-## 🎨 3. Install Custom `sherab` Theme
+## 🎨 3. Install Custom [Sherab Theme](https://github.com/Esukhia/Sherab-theme)
 
 Navigate to the Open edX themes directory:
 
@@ -45,7 +45,7 @@ git clone https://github.com/Esukhia/Sherab-theme.git
 
 ---
 
-## 🛠 4. Use Custom `edx-platform` (Sherab Version)
+## 🛠 4. Use Custom [edx-platform](https://github.com/Esukhia/edx-platform) (Sherab Version)
 
 ### a. Clone the Custom Platform
 
@@ -131,7 +131,7 @@ hooks.Filters.MOUNTED_DIRECTORIES.add_item(
 
 ---
 
-## 🧩 7. Clone Your Custom Django App
+## 🧩 7. Clone Your [Custom Django App](https://github.com/Esukhia/sherab-custom-plugin)
 
 Clone your custom plugin (e.g., wishlist):
 
