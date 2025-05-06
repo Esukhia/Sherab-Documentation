@@ -56,7 +56,7 @@ If you encounter a bug or unexpected behavior:
 
 Want to contribute code? Follow these steps:
 
-1. **Create a feature branch** off the `sherab-dev` branch.
+1. **Create a feature branch** off the `sherab-dev` branch in the respective repository
 2. Make your changes and commit them.
 3. **Open a Pull Request (PR)** to the `sherab-dev` branch.
 4. One of the Sherab developers will review and test your contribution.
