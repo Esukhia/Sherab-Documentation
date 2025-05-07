@@ -25,7 +25,7 @@ tutor dev launch
 
 ### MySQL
 
-You will need the **SQL database dump** file and the **MySQL root password**.
+You will need the **SQL database dump** file and the **MySQL root password**. Provided upon request.
 
 ```bash
 cat path/to/sql/dump | docker exec -i <sql_container_id> /usr/bin/mysql -u root --password='your_sql_root_password' mysql
