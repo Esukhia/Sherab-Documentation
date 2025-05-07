@@ -117,3 +117,5 @@ tutor dev launch
 > _It is recommended to upgrade your character set and collation of the MySQL database after upgrading to Sumac._  
 > You can use the `convert-mysql-utf8mb4-charset` job to upgrade the collation and character set.  
 > More details: [Tutor Docs - Changing the MySQL Charset and Collation](https://docs.tutor.edly.io/local.html#changing-the-mysql-charset-and-collation)
+
+## 9. After this refer the [tutor setup and customizsation process](https://github.com/Esukhia/Sherab-Documentation/blob/main/tutor-installation-and-setup.md)
