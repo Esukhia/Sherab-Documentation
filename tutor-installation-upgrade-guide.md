@@ -118,4 +118,4 @@ tutor dev launch
 > You can use the `convert-mysql-utf8mb4-charset` job to upgrade the collation and character set.  
 > More details: [Tutor Docs - Changing the MySQL Charset and Collation](https://docs.tutor.edly.io/local.html#changing-the-mysql-charset-and-collation)
 
-## 9. After this refer the [tutor setup and customizsation process](https://github.com/Esukhia/Sherab-Documentation/blob/main/tutor-installation-and-setup.md)
+## 9. After this refer the [tutor setup and customizsation process](https://github.com/Esukhia/Sherab-Documentation/blob/main/tutor-setup-customization-guide.md)
