@@ -6,7 +6,7 @@ This guide explains how to install Tutor locally, use a custom Open edX platform
 
 ## ✅ 1. Install Tutor Locally
 
-Use the [tutor-installation-and-upgrade guide](https://github.com/Esukhia/Sherab-Documentation/blob/main/tutor_install_and_upgrade_guide.md) to install tutor locally and connect the database.
+Use the [tutor-installation-and-upgrade guide](https://github.com/Esukhia/Sherab-Documentation/blob/main/tutor-installation-upgrade-guide.md) to install tutor locally and connect the database.
 
 ---
 
