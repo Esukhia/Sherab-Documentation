@@ -6,26 +6,13 @@ This guide explains how to install Tutor locally, use a custom Open edX platform
 
 ## ✅ 1. Install Tutor Locally
 
-Use pip to install Tutor version 19.0.2 with full dependencies:
-
-```bash
-pip install "tutor[full]==19.0.2"
-```
+Use the [tutor migration steps]() to install tutor locally and connect the database.
 
 ---
 
-## 🚀 2. Launch Tutor in Dev Mode
-
-Start the Tutor development environment:
-
-```bash
-tutor dev launch
-```
-
-This will:
-- Build the Docker environment
-- Start services (MySQL, LMS, CMS, etc.)
-- Set up a development environment for live code changes
+## 🚀 2. Check tutor version
+Make sure you are on the latest or the required tutor version 
+(current tutor version : **19.0.2** Sumac)
 
 ---
 
@@ -163,38 +150,55 @@ tutor mounts list
 ## ✅ 10. Enable the Plugin
 
 ```bash
-tutor plugins enable configuration_plugin
+tutor plugins enable plugin_name
 ```
 
-Enable other plugins as needed.
+Please make sure to enable other plugins as needed.
 
 ---
-## ✅ 11. Check if the plugin is installed in the container
-
-```bash
-tutor dev run lms bash
-```
-
-Check if the plugin is installed in the container
-
-```bash
-pip list | grep sherab
-```
-If it’s not installed, you can install it by running:
-
-```bash
-pip install -e /mnt/sherab-custom-plugin
-```
-exit the container after that and rebuild the image
----
-## 🏗 12. Rebuild Docker Image
+## 🏗 11. Rebuild Docker Image
 
 ```bash
 tutor images build openedx --no-cache
 ```
-
 > This may take time on the first run.
 
+After this, run 
+```bash
+tutor dev stop
+tutor dev start -d
+```
+to reflect the changes.
+
+---
+## ✅ 12. Check if the plugin is installed in the lms container
+
+a. Get the lms container id
+
+```bash
+docker ps 
+```
+b. Enter the container
+```bash
+docker exec -it container_id bash
+```
+c. Check if the sherab-custom-plugin is installed
+```bash
+pip list | grep sherab
+```
+If it’s not installed, you can install it by running:
+```bash
+pip install -e /mnt/sherab-custom-plugin
+```
+if getting error, check if the app is mounted in the /mnt dir
+```bash
+cd ../../mnt && ls
+```
+
+exit the container after that and restart tutor with 
+```bash
+tutor dev restart
+```
 ---
 
 You're now ready to run your custom Open edX instance with the Sherab theme and custom plugins.
