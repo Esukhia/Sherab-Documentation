@@ -1,6 +1,6 @@
-# 💻 Local Tutor Installation and Customization Guide
+# 💻 Local Tutor Setup and Customisation Guide
 
-This guide explains how to install Tutor locally, use a custom Open edX platform (`edx-platform`), apply a custom theme (`sherab`), and add a configuration plugin with custom settings.
+This guide explains installing a custom OpenEdX platform (`edx-platform`), applying a custom theme (`sherab`), and adding a configuration plugin with custom settings.
 
 ---
 
@@ -12,7 +12,7 @@ Use the [tutor-installation-and-upgrade guide](https://github.com/Esukhia/Sherab
 
 ## 🚀 2. Check tutor version
 Make sure you are on the latest or the required tutor version 
-(current tutor version : **19.0.2** Sumac)
+(current tutor version: **19.0.2** Sumac)
 
 ---
 
