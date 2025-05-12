@@ -195,10 +195,16 @@ if getting error, check if the app is mounted in the /mnt dir
 cd ../../mnt && ls
 ```
 
-exit the container after that and restart tutor with 
+exit the container.
+
+---
+##  13. Apply the theme
+apply the Sherab-theme with 
+```bash
+tutor dev do settheme <theme_name>
+```
+then restart the tutor with
 ```bash
 tutor dev restart
 ```
----
-
-You're now ready to run your custom Open edX instance with the Sherab theme and custom plugins.
+You're ready to run your custom openedx instance with the Sherab theme and custom plugins.
