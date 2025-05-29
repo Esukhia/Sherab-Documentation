@@ -39,7 +39,21 @@ A shared header component used in various Sherab frontend applications, providin
 A Django plugin extending Open edx functionality with Sherab-specific backend logic, models, and APIS.
 
 ---
+ ### Edx-mfe
+These MFEs come enabled by default
 
+- [Authn](https://github.com/openedx/frontend-app-authn/)
+- [Authoring](https://github.com/openedx/frontend-app-authoring/)
+- [Account](https://github.com/openedx/frontend-app-account/)
+- [Communications](https://github.com/openedx/frontend-app-communications/)
+- [Discussions](https://github.com/openedx/frontend-app-discussions/)
+- [Gradebook](https://github.com/openedx/frontend-app-gradebook/)
+- [Learner Dashboard](https://github.com/openedx/frontend-app-learner-dashboard/)
+- [Learning](https://github.com/openedx/frontend-app-learning/)
+- [ORA Grading](https://github.com/openedx/frontend-app-ora-grading/)
+- [Profile](https://github.com/openedx/frontend-app-profile/)
+
+  
 # 🤝 How to Contribute
 
 We welcome contributions from the community! Here's how you can get involved:
