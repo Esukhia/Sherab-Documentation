@@ -12,6 +12,22 @@ It includes instructions and guides for:
 
 Use this as the central reference for all technical setup and operational procedures related to the Sherab OpenEdX deployment.
 
+---
+
+### 📚 Documentation
+
+- 📘 [Tutor Setup & Customization Guide](tutor-setup-customization-guide.md)
+
+- 🧩 [Mounting Frontend MFEs](mounting-frontend-mfe.md)
+
+- 🔄 [Tutor Migration to Production](tutor-migration-production.md)
+
+- ⬆️ [Tutor Installation & Upgrade Guide](tutor-installation-upgrade-guide.md)
+
+- 🌐 [Transifex Setup & Management](transifex-setup-and-management.md)
+
+---
+
 # Sherab Project Repositories
 
 These are an organised overview of the core repositories maintained under the Sherab project by [Esukhia](https://github.com/Esukhia). These repositories together constitute the customised OpenEdX platform and associated components for the Sherab learning platform. There will be more repositories added here based on the need.
@@ -53,7 +69,7 @@ These MFEs come enabled by default
 - [ORA Grading](https://github.com/openedx/frontend-app-ora-grading/)
 - [Profile](https://github.com/openedx/frontend-app-profile/)
 
-  
+
 # 🤝 How to Contribute
 
 We welcome contributions from the community! Here's how you can get involved:
