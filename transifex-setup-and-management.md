@@ -67,8 +67,8 @@ We are currently using GitHub integration with Transifex. This provides a seamle
 
 ### 📚 Guide for Setup and Management
 
-- 🔗 [Transifex Integration with GitHub](./docs/transifex/transifex-github-integration.md)
-- 🔐 [Generating a Transifex API Token](./docs/transifex/transifex-token-generation.md)
-- 👥 [User Roles and Access in Transifex](./docs/transifex/user-roles-access-for-transifex.md)
-- 🛠️ [Fixing Transifex Resource Names for Open edX](./docs/transifex/fix-transifex-resource-names-for-openedx.md)
+- 🔗 [Transifex Integration with GitHub](./docs-resources/transifex/transifex-github-integration.md)
+- 🔐 [Generating a Transifex API Token](./docs-resources/transifex/transifex-token-generation.md)
+- 👥 [User Roles and Access in Transifex](./docs-resources/transifex/user-roles-access-for-transifex.md)
+- 🛠️ [Fixing Transifex Resource Names for Open edX](./docs-resources/transifex/fix-transifex-resource-names-for-openedx.md)
 ---
