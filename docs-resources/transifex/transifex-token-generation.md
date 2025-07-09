@@ -18,14 +18,6 @@ To interact with the Transifex API (e.g., via CLI, SDK, GitHub Actions), you'll 
 
 ---
 
-<div style="display: flex; justify-content: space-between; gap:10px;">
+◀️ [Previous: Transifex Integration with GitHub](./transifex-github-integration.md)
 
-  <a href="./transifex-github-integration.md">
-    ◀️ Previous: Transifex Integration with GitHub
-  </a>
-
-  <a href="./user-roles-access-for-transifex.md">
-    Next: User Roles and Access in Transifex ▶️
-  </a>
-
-</div>
+▶️ [Next: User Roles and Access in Transifex](./user-roles-access-for-transifex.md)
