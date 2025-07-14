@@ -24,7 +24,7 @@ Use this as the central reference for all technical setup and operational proced
 
 - ⬆️ [Tutor Installation & Upgrade Guide](tutor-installation-upgrade-guide.md)
 
-- 📱 [Android App Development Setup](android-app-development-setup.md)
+- 📱 [Android App Development Environment Setup](android-app-development-environment-setup.md)
 
 - 🌐 [Transifex Setup & Management](transifex-setup-and-management.md)
 

@@ -1,4 +1,4 @@
-# 📱 Android App Development Setup for Open edX
+# 📱 Android App Development Environment Setup for Open edX
 
 This guide walks you through setting up Android Studio and configuring a local development environment for running the Open edX Android app.
 
@@ -91,7 +91,7 @@ To improve Android emulator performance, enable hardware virtualization using **
 
 ---
 
-# 🧪 Local Development Setup for Open edX Android App
+# 🧪 Local Development Environment Setup for Open edX Android App
 
 > **⚠️ Important Note:**
 > The following configurations are intended _only_ for local development. Some of these are **temporary workarounds** to get the app running on an Android emulator and are **not suitable for production use**.
