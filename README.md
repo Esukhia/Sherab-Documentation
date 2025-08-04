@@ -26,6 +26,8 @@ Use this as the central reference for all technical setup and operational proced
 
 - 📱 [Android App Development Environment Setup](android-app-development-environment-setup.md)
 
+- 🤝 [Partner-Organization Mapping Guide](parters-organization-mapping-management.md)
+
 - 🌐 [Transifex Setup & Management](transifex-setup-and-management.md)
 
 ---
