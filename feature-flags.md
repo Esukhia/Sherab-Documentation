@@ -48,6 +48,8 @@ Provides a unified screen for both login and registration, streamlining the auth
 ### `FEATURES['ENABLE_THIRD_PARTY_AUTH'] = True`
 Enables support for third-party authentication providers (Google, Facebook, Apple, SSO, etc.).
 
+### `FEATURES['ENABLE_EXTENDED_COURSE_DETAILS'] = True`
+Setting this flag to True unlocks more granular course information across Open edX, benefiting both learners (with richer course views) and administrators/integrators (with more structured course data available for various use cases)
 ---
 
 # CMS (Studio) Feature Flags
