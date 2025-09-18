@@ -42,20 +42,7 @@
     ``` bash
        tutor wordpress config printroot    
     ```
-This command will output the current configurations, including the Client ID, Client Secret, Open edX Domain, and WordPress Domain. Here is an example of the output:
-
-    ``` bash
-    ===============================================
-    WordPress Plugin Configurations
-===============================================
-
-Client ID: vvpTamiepPwjZhr0uOQGr5PhYBzp2hQw
-Client ID (dev): MlbXk1V3wB7nWPAAyLF3McyfBBMqExa4
-Client Secret: MdrgbtU8Q94He3gejF6Zf5MDookoeozO
-
-Open edX Domain: http://local.openedx.io:8000
-Wordpress Domain: http://site.local.openedx.io:8080
-    ```
+    
 ## Detailed Setup Steps
 
 ### Phase 1: OAuth2 Setup in Sherab
